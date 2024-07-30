@@ -1,0 +1,17 @@
+node_modules/
+jspm_packages/
+*.tsbuildinfo
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.temp
+.cache
+.serverless/
+.fusebox/
+.vscode-test

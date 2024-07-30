@@ -1,0 +1,28 @@
+{
+  "name": "networking",
+  "version": "0.0.1",
+  "description": "this package helps with network stuff and make it easy devlop (fetching , dealing with json , http requests , parsing data) ...",
+  "main": "./dist/index.js",
+  "scripts": {
+    "b": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "network",
+    "fetch",
+    "api",
+    "requests",
+    "http",
+    "parse",
+    "data",
+    "json"
+  ],
+  "author": "mygithope",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
