@@ -19,7 +19,6 @@
     "jsxFragmentFactory": "",
     "jsxImportSource": "",
     "reactNamespace": "",
-    "noLib": true,
     "useDefineForClassFields": true,
     "moduleDetection": "auto",
 
@@ -34,7 +33,6 @@
     "types": [],
     "allowUmdGlobalAccess": true,
     "moduleSuffixes": [],
-    "allowImportingTsExtensions": true,
     "resolvePackageJsonExports": true,
     "resolvePackageJsonImports": true,
     "customConditions": [],
@@ -50,13 +48,9 @@
     /* Emit */
     "declaration": true,
     "declarationMap": true,
-    "emitDeclarationOnly": true,
     "sourceMap": true,
-    "inlineSourceMap": true,
-    "outFile": "./",
     "outDir": "./dist/",
     "removeComments": true,
-    "noEmit": true,
     "importHelpers": true,
     "downlevelIteration": true,
     "sourceRoot": "",
@@ -68,13 +62,11 @@
     "noEmitHelpers": true,
     "noEmitOnError": true,
     "preserveConstEnums": true,
-    "declarationDir": "./",
 
     /* Interop Constraints */
     "isolatedModules": true,
 
     "verbatimModuleSyntax": true,
-    "isolatedDeclarations": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "preserveSymlinks": true,
