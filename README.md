@@ -1,12 +1,10 @@
 # Networking
 
-===
-
-## Documentaion :
+## Documentation :
 
 this lib is intended for testing only
 do not use it for production .
-i will make use of the functional programming paradigm this mean :
+i will make use of the functional programming paradigm and this mean :
 
 - reducing side effects (no mutation)
 - semi pure functions (pure function are not possible cause of IO and fetching external APIs)
@@ -14,10 +12,22 @@ i will make use of the functional programming paradigm this mean :
 
 ### Dealing with APIs :
 
-**TODO**
-provide functions for doing :
-
-- fetching json data
-- useful errors
-- an easy interface to make (http request with CRUD Operations HEADERS)
-- some of these functions will return (js object , void ...)
+- `fetchJsonData` :
+  ```JavaScript
+  // preform post http request on myapi endpoint
+fetchJsonData("https://my/api/endpoint","post",{
+		firstName:"j",lastName:"k"
+	});
+  ```
+this will throw an error or returns a json data
+it is recommended to put this function inside `try` and `catch` blocks
+Another example :
+```JavaScript
+try {
+	const myData = fetchJsonData("https://my/api/endpoint") // this will use the get method by default	
+	// do somthing with this data ...
+} 
+catch(err){
+	// if data not recieved do another thing here ...
+}
+```
