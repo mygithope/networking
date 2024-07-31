@@ -10,6 +10,26 @@ i will make use of the functional programming paradigm and this mean :
 - semi pure functions (pure function are not possible cause of IO and fetching external APIs)
 - no Class's (even if they are just a syntactic sugar on top of Constructor Functions and Prototypes)
 
+### using the project :
+
+- git clone the project by running this :
+
+```sh
+git clone "https://github.com/mygithope/networking.git" --branch main
+```
+
+- run this in project dir :
+
+```sh
+npm ci
+```
+
+- biuld the project :
+
+```sh
+npm run b
+```
+
 ### Dealing with APIs :
 
 - `fetchJsonData` :
