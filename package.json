@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "yes"
+      "url": "https://github.com/mygithope/networking.git"
   },
   "keywords": [
     "network",
