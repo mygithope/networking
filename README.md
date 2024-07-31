@@ -13,21 +13,22 @@ i will make use of the functional programming paradigm and this mean :
 ### Dealing with APIs :
 
 - `fetchJsonData` :
-  ```JavaScript
+  ```js
   // preform post http request on myapi endpoint
-fetchJsonData("https://my/api/endpoint","post",{
-		firstName:"j",lastName:"k"
-	});
+  fetchJsonData("https://my/api/endpoint", "post", {
+    firstName: "j",
+    lastName: "k",
+  });
   ```
-this will throw an error or returns a json data
-it is recommended to put this function inside `try` and `catch` blocks
-Another example :
-```JavaScript
+  this will throw an error or returns a json data
+  it is recommended to put this function inside `try` and `catch` blocks
+  Another example :
+
+```js
 try {
-	const myData = fetchJsonData("https://my/api/endpoint") // this will use the get method by default	
-	// do somthing with this data ...
-} 
-catch(err){
-	// if data not recieved do another thing here ...
+  const myData = fetchJsonData("https://my/api/endpoint"); // this will use the get method by default
+  // do somthing with this data ...
+} catch (err) {
+  // if data not recieved do another thing here ...
 }
 ```
