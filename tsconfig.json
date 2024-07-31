@@ -10,7 +10,7 @@
     "disableReferencedProjectLoad": true,
 
     /* Language and Environment */
-    "target": "ES6",
+    "target": "es2020",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "jsx": "preserve",
     "experimentalDecorators": true,
@@ -23,7 +23,7 @@
     "moduleDetection": "auto",
 
     /* Modules */
-    "module": "ES6",
+    "module": "es2020",
     "rootDir": "./src/",
     "moduleResolution": "bundler",
     "baseUrl": "./",
